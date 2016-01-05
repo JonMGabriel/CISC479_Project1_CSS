@@ -12,6 +12,6 @@ body {
 
 /* unsure how to change the background of the table cell
    this is definitely a question of selectors of the right tags */
-category1 {
+#category1 {
    background-color: #72f974;
 }
