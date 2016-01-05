@@ -10,8 +10,32 @@ body {
    background-color: #fff;
 }
 
-/* unsure how to change the background of the table cell
-   this is definitely a question of selectors of the right tags */
-#category1 {
+/* for div id = information */
+
+#green_row {
    background-color: #72f974;
+}
+
+#orange_row {
+   background-color: #ffcc00;
+}
+
+#yellow_row {
+   background-color: #ffff66;
+}
+
+#brown_row {
+   background-color: #ffdf80;
+}
+
+#blue_row {
+   background-color: #99bbff;
+}
+
+#purple_row {
+   background-color: #bf80ff;
+}
+
+#prune_row {
+   background-color: #ff9999;
 }
