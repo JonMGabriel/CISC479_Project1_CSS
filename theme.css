@@ -10,7 +10,30 @@ body {
    background-color: #fff;
 }
 
-/* for div id = information */
+
+div #information {
+   position: absolute;
+   border: 3px solid; /* need to take this out but for sake of seperation of content I put this in */ 
+   top: 100%;
+   right: 0%;
+}
+
+/* Learning moment: So what I did to move my information section to the bottom right
+was to make the entire article I was emulating into its own div id. The from there I
+used the the position "absolute" (which positions stuff relative to the nearest positioned
+ancester; which in this case is the whole nat geo article) for the information div class.*/
+
+.NatGeoArticle {
+   position: relative;
+}
+
+.information {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+}
+
+/* tags for div id = information */
 
 #green_row {
    background-color: #72f974;
@@ -39,3 +62,5 @@ body {
 #prune_row {
    background-color: #ff9999;
 }
+
+/* tags for div id = day_6_11 */
