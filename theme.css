@@ -11,6 +11,10 @@ body {
    background-color: #fff;
 }
 
+h3 {
+   font-family: "Trebuchet MS";
+}
+
 /* Learning moment: So what I did to move my information section to the bottom right
 was to make the entire article I was emulating into its own div id. The from there I
 used the the position "absolute" (which positions stuff relative to the nearest positioned
@@ -34,8 +38,8 @@ if that's the correct thing to do.
 
 .day_6_11 {
    position:absolute;
-   bottom: 0;
-   left: 4;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 /* tags for div id = information */
