@@ -39,9 +39,15 @@ if that's the correct thing to do.
 }
 
 .day_6_11 {
-   position: absolute;
+   position: static;
    margin-left: auto;
    margin-right: auto;
+   width: 380px;
+}
+
+.itinerary {
+   position: absolute;
+   width: 300px;
 }
 
 /* tags for div id = information */
@@ -55,7 +61,7 @@ if that's the correct thing to do.
    line-height: 2px;
    border-collapse: collapse;
    border-style: hidden;
-   border: 1px solid white;
+   border: 6px solid white; /* this was how I was able to hide the last vertical line */
 }
 
 #money td {
@@ -191,4 +197,18 @@ if that's the correct thing to do.
 
 .day_x {
    color: blue;
+}
+
+
+/* tags for div id = itinerary */
+
+#itin_header {
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-family: "Trebuchet MS";
+   background-color: #737373;
+   line-height: 20%;
+   padding-left: 15px;
+   color: white;
+   font-size: 20px;
 }
