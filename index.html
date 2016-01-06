@@ -9,7 +9,7 @@
 
     <body>
         
-    <div id = NatGeoArticle>
+    <div class = NatGeoArticle>
         
 <!-- 
 
@@ -34,13 +34,27 @@ throughout the week to emulate the entire "A circumnavigation of Iceland article
 
 -->
 
-<!-- Below is the day_6_11 section. -->
+<!-- Below is the day_6_11 section.-->
 
-<div id = day_6_11>
+
+<div class = day_6_11>
     
-    <h3> Day 6: </h3>
     
+    <h3> DAY 6 THE NORTHERN COAST </h3>
+    
+    
+    <h3> DAY 7 MYVATN AND HUSAVIK </h3>
+    
+    <h3> DAY 8 NORTHERN ICELAND </h3>
+    
+    <h3> DAY 9 DJUPIVOGUR </h3>
+    
+    <h3> DAY 10 WESTMAN ISLANDS </h3>
+    
+    <h3> DAY 11 REYKJAVIK/U.S. </h3>
+
 </div>
+
 
 <!-- Below is the INFORMATION section (all information is included)
 Needs to be positioned in the bottom right of the page in the CSS.
@@ -53,15 +67,14 @@ Needs to be positioned in the bottom right of the page in the CSS.
             <!-- If I can figure out how to accurately emulate this information tag, the following
             category color of the table rows will also follow -->
             
-            <h1> Information </h1>
+            <h1 id = "info_header"> Information </h1>
             
-                <h2>Dates:</h2>
-                <h2>2016: July 10-20 - July 19-29</h2>
+                <h2 id = "date_header"> Dates: </h2>
+                <h2 id = "expedition_date"><b>2016: </b> July 10-20 - July 19-29</h2>
                 
-                <br>
-                <h2>Expedition Cost:</h2>
+                <h2 id = "expedition">Expedition Cost:</h2>
                 
-            <table border="1" style = "width: 40%">    
+            <table id = "info_table" border="1" style = "width: 100%">    
                 
                 <!-- Question: I'm adding in just the simple table cell width. I also would like to ask about the <div>
                     tag and how I'm using it. Given my Nat Geo article, each table row must be a different color
