@@ -61,7 +61,7 @@ Needs to be positioned in the bottom right of the page in the CSS.
 
 <div class = information>
 
-        <img src = "http://www.nationalgeographicexpeditions.com/assets/images/3871/map.jpg" alt="nationalgeographic.com">
+        <img id = "iceland" src = "http://www.nationalgeographicexpeditions.com/assets/images/3871/map.jpg" alt="nationalgeographic.com">
             
             <!-- If I can figure out how to accurately emulate this information tag, the following
             category color of the table rows will also follow -->
@@ -82,8 +82,8 @@ Needs to be positioned in the bottom right of the page in the CSS.
                     <div class = "categories">    <!-- the overall categories div -->
                              <!-- the ID within -->
                         <tr id = "orange_row">
-                            <td><h3> Category 1 </h3></td>
-                            <td class = "money"><b> $9,820 </b></td>
+                            <td id = "orange_text"> <h3> Category 1 </h3></td>
+                            <td><b> $9,820 </b></td>
                         </tr>
                         
                         <tr>
@@ -91,8 +91,8 @@ Needs to be positioned in the bottom right of the page in the CSS.
                         </tr>
                         
                         <tr id = "green_row">
-                                <td><h3> Category 2 </h3> </td>
-                                <td class = "money"><b> $10,680 </b></td>
+                                <td id = "green_text"><h3> Category 2 </h3> </td>
+                                <td><b> $10,680 </b></td>
                             </tr>
                         
                         <tr>
@@ -100,8 +100,8 @@ Needs to be positioned in the bottom right of the page in the CSS.
                         </tr>
                         
                         <tr id = "yellow_row">
-                                <td><h3> Category 3 </h3> </td>
-                                <td class = "money"><b> $10,990 </b></td>
+                                <td id = "yellow_text"><h3> Category 3 </h3> </td>
+                                <td><b> $10,990 </b></td>
                         </tr>
                         
                         <tr>
@@ -109,8 +109,8 @@ Needs to be positioned in the bottom right of the page in the CSS.
                         </tr>
                         
                         <tr id = "brown_row">
-                            <td><h3> Category 4 </h3> </td>
-                            <td class = "money"><b> $11,990 </b></td>
+                            <td id = "brown_text"><h3> Category 4 </h3> </td>
+                            <td><b> $11,990 </b></td>
                         </tr>
                         
                         <tr>
@@ -118,8 +118,8 @@ Needs to be positioned in the bottom right of the page in the CSS.
                         </tr>
                         
                         <tr id = "blue_row">
-                                <td><h3> Category 5 </h3> </td>
-                                <td class = "money"><b> $14,230 </b></td>
+                                <td id = "blue_text"><h3> Category 5 </h3> </td>
+                                <td><b> $14,230 </b></td>
                         </tr>
                         
                         <tr>
@@ -127,8 +127,8 @@ Needs to be positioned in the bottom right of the page in the CSS.
                         </tr>
                         
                         <tr id = "purple_row">
-                            <td><h3> Category 6 </h3> </td>
-                            <td class = "money"><b> $16,990 </b></td>
+                            <td id = "purple_text"><h3> Category 6 </h3> </td>
+                            <td><b> $16,990 </b></td>
                         </tr>
                         
                         <tr>
@@ -136,8 +136,8 @@ Needs to be positioned in the bottom right of the page in the CSS.
                         </tr>
                         
                         <tr id = "prune_row">
-                                <td><h3> Category 7 </h3> </td>
-                                <td class = "money"><b> $19,350 </b></td>
+                                <td id = "prune_text"><h3> Category 7 </h3> </td>
+                                <td><b> $19,350 </b></td>
                         </tr>
                         
                         <tr>
@@ -147,12 +147,16 @@ Needs to be positioned in the bottom right of the page in the CSS.
                     </div> <!-- end of categories div -->
             </table>
             
-            <p><i> See National Geographic Explorer description, photo, <br>
+            <p id = "info_des"> See National Geographic Explorer description, photo, <br>
             and deck plan on page 136. Prices are per person, <br>
             double occupancy. For a single cabin, add $2,670 in <br>
-            Category 2 and $2750 in Category 3. International <br>
-            airfare to/from Reykjavik is not included in the expedition cost. </i></p>
+            Category 2 and $2750 in Category 3. International airfare  <br>
+            to/from Reykjavik is not included in the expedition cost. </p>
             
+            <h4 id = "opt_ext"> Optional Extension: </h4> </p>
+            
+            <p> Add a two-day pre-trip extension to Reykjavik and the <br> Golden Circle.
+            Visit our website or call for detaisl</p>
         </div> <!-- end of INFORMATION div -->
         
         </div> <!-- end of NatGeoArticle div -->

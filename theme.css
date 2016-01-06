@@ -4,6 +4,7 @@
 
 p {
    background-color: #fff;
+   font-family: "Trebuchet MS";
 }
 
 body {
@@ -39,6 +40,11 @@ if that's the correct thing to do.
 
 /* tags for div id = information */
 
+#iceland {
+   padding-bottom: 5px;
+}
+
+
 #info_table {
    line-height: 2px;
    border-collapse: collapse;
@@ -50,40 +56,91 @@ if that's the correct thing to do.
    border-collapse: collapse;
 }
 
+/* */
+
 #green_row {
    background-color: #72f974;
    border-style: hidden;
+   font-family: "Trebuchet MS";
    }
+   
+#green_text {
+   padding-left: 10px;
+}
+
+/* Orange */
 
 #orange_row {
    background-color: #ffcc00;
    border-style: hidden;
+   font-family: "Trebuchet MS";
 }
+
+#orange_text {
+   padding-left: 10px;
+}
+
+/* Yellow */
 
 #yellow_row {
    background-color: #ffff66;
    border-style: hidden;
+   font-family: "Trebuchet MS";
 }
+
+#yellow_text {
+   padding-left: 10px;
+}
+
+/* Brown */
 
 #brown_row {
    background-color: #ffdf80;
    border-style: hidden;
+   font-family: "Trebuchet MS";
 }
+
+#brown_text {
+   padding-left: 10px;
+}
+
+/* Blue */
 
 #blue_row {
    background-color: #99bbff;
    border-style: hidden;
+   font-family: "Trebuchet MS";
 }
+
+ #blue_text {
+    padding-left: 10px;
+ }
+
+/* Purple */
 
 #purple_row {
    background-color: #bf80ff;
    border-style: hidden;
+   font-family: "Trebuchet MS";
 }
+
+#purple_text {
+   padding-left: 10px;
+}
+
+/* Prune */
 
 #prune_row {
    background-color: #ff9999;
    border-style: hidden;
+   font-family: "Trebuchet MS";
 }
+
+#prune_text {
+   padding-left: 10px;
+}
+
+/* ---- Headers above Expedition Cost ---- */
 
 #info_header {
    padding-top: 20px;
@@ -91,25 +148,36 @@ if that's the correct thing to do.
    font-family: "Trebuchet MS";
    background-color: #737373;
    line-height: 20%;
-   padding-left: 10px;
+   padding-left: 25px;
    color: white;
 }
 
 #date_header{
    padding-top: 5px;
    font-family: "Trebuchet MS";
+   line-height: 30%;
 }
 
 #expedition_date {
    
    font-family: "Trebuchet MS";
    font-size: 1.5em;
+   line-height: 30%;
 }
 
 #expedition {
    
    font-family: "Trebuchet MS";
    font-size: 1.5em;
+   line-height: 30%;
+   padding-top: 20px;
 }
 
+#info_des {
+   font-family: "Trebuchet MS";
+}
+
+#opt_ext {
+   font-family: "Trebuchet MS";
+}
 /* tags for div id = day_6_11 */
