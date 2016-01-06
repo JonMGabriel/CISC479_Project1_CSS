@@ -37,49 +37,52 @@ if that's the correct thing to do.
    left: 4;
 }
 
-
-/* what I think the positioning will be for the middle section
-.day_6_11 {
-   position: absolute;
-   bottom: 0;
-   right: 0;
-   left: 0;
-}
-*/
-
 /* tags for div id = information */
 
 #info_table {
    line-height: 2px;
    border-collapse: collapse;
+   border-style: hidden;
+}
+
+#money td {
+   border-style: hidden;
+   border-collapse: collapse;
 }
 
 #green_row {
    background-color: #72f974;
+   border-style: hidden;
 }
 
 #orange_row {
    background-color: #ffcc00;
+   border-style: hidden;
 }
 
 #yellow_row {
    background-color: #ffff66;
+   border-style: hidden;
 }
 
 #brown_row {
    background-color: #ffdf80;
+   border-style: hidden;
 }
 
 #blue_row {
    background-color: #99bbff;
+   border-style: hidden;
 }
 
 #purple_row {
    background-color: #bf80ff;
+   border-style: hidden;
 }
 
 #prune_row {
    background-color: #ff9999;
+   border-style: hidden;
 }
 
 #info_header {
