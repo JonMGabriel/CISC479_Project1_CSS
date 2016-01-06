@@ -53,7 +53,7 @@ if that's the correct thing to do.
 #green_row {
    background-color: #72f974;
    border-style: hidden;
-}
+   }
 
 #orange_row {
    background-color: #ffcc00;
@@ -86,24 +86,28 @@ if that's the correct thing to do.
 }
 
 #info_header {
-   height: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
    font-family: "Trebuchet MS";
-   background-color: #737373; /* I think the height is messing with the background fill */
+   background-color: #737373;
+   line-height: 20%;
+   padding-left: 10px;
+   color: white;
 }
 
 #date_header{
-   height: 10px;
+   padding-top: 5px;
    font-family: "Trebuchet MS";
 }
 
 #expedition_date {
-   height: 20px;
+   
    font-family: "Trebuchet MS";
    font-size: 1.5em;
 }
 
 #expedition {
-   height: 15px;
+   
    font-family: "Trebuchet MS";
    font-size: 1.5em;
 }
