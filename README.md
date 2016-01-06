@@ -1,6 +1,10 @@
 # CISC479_Project1_CSS
 http://css.prof.ninja/projects/1/
 
+Project by Jon M. Gabriel
+UDID: gabrielj
+Due Date: January 11th, 2016 in class
+
 Project 1: CSS Show-and-Tell
 
 Mimic a graphic design
