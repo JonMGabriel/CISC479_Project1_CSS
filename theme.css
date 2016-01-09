@@ -11,10 +11,21 @@ body {
    background-color: #fff;
 }
 
+h1 {
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   font-size: 2.3em;
+}
+
 h3 {
    font-family: "Trebuchet MS";
    font-size: 1em;
 }
+
+ul {
+    font-size: 16px;
+    margin-left: 0px;
+ }
 
 /* Learning moment: So what I did to move my information section to the bottom right
 was to make the entire article I was emulating into its own div id. The from there I
@@ -25,39 +36,55 @@ I altered the natgeoarticle position to static since things were freaking out (u
 if that's the correct thing to do.
 */
 
+/* If I went with the absolute, relative layout
 .container {
    position: relative;
 }
+*/
 
 
 .information {
-   position: absolute; /* I'm pretty sure this inherits from that static position abov */
-   /*float: right;*/
-   bottom: 0;
+   /* position: absolute; /* I'm pretty sure this inherits from that static position abov */
+   float: right;
    right: 0;
    width: 35%;/* also hard set the width of the information section, see above for possible mistake */
 }
 
 .day_6_11 {
    width: 35%;
-   position: absolute;
-   /* float: left; */
+   /* position: absolute; */
+   float: left;
    left: 350px;
+   padding-left: 20px;
 }
 
 .itinerary {
    width: 30%;
-   position: absolute;
-   /* float: left; */
+   /* position: absolute; */
+   float: left;
    left: 0;
 }
 
 .photographer {
+   position: absolute;
    border-style: solid;
    border-top-color: #ffd700;
    border-left-color: white;
    border-bottom-color: white;
    border-right: 3px solid;
+   box-sizing: border-box;
+   width: 30%;
+}
+
+.expedition_highlights {
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   width: 100%;
+   border-style: solid;
+   border-right: white;
+   border-left: white;
+   border-top-color: #ffd700;
+   height: 300px;
 }
 
 /* tags for div id = information */
@@ -227,8 +254,28 @@ if that's the correct thing to do.
 
 #natgeo_logo {
    width: 150px;
-   position: relative;
+   position: absolute;
    top: 0px;
    right: 0px;
-   z-index: 1;
+   padding-top: 10px;
+   padding-right: 20px;
+}
+
+#exped_p {
+   padding-top: 80px;
+}
+
+#photographer {
+   width: 110px;
+   float: left;
+   padding-right: 10px;
+}
+
+/* tags for TOP */
+
+#mountains {
+   width: 500px;
+   height: 270px;
+   float: left;
+   padding-right: 30px;
 }
