@@ -31,6 +31,11 @@ li {
    left: 20px;
 }
 
+#unbold {
+   font-weight: normal;
+   float: right;
+}
+
 /* Learning moment: So what I did to move my information section to the bottom right
 was to make the entire article I was emulating into its own div id. The from there I
 used the the position "absolute" (which positions stuff relative to the nearest positioned
@@ -201,10 +206,11 @@ if that's the correct thing to do.
    padding-bottom: 20px;
    font-family: "Trebuchet MS";
    background-color: #737373;
-   line-height: 20%;
+   line-height: 10%;
    padding-left: 25px;
    padding-right: 25px;
    color: white;
+   font-size: 25px;
 }
 
 #date_header{
