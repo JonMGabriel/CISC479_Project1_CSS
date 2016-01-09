@@ -25,26 +25,31 @@ I altered the natgeoarticle position to static since things were freaking out (u
 if that's the correct thing to do.
 */
 
+.container {
+   position: relative;
+}
+
 
 .information {
-   /* position: relative; /* I'm pretty sure this inherits from that static position abov */
-   float: right;
+   position: absolute; /* I'm pretty sure this inherits from that static position abov */
+   /*float: right;*/
    bottom: 0;
    right: 0;
-   height: 900px; /* hard set the height here, might cause problems with div above in the future */
    width: 35%;/* also hard set the width of the information section, see above for possible mistake */
 }
 
 .day_6_11 {
    width: 35%;
-   float: left;
-   bottom: 0;
+   position: absolute;
+   /* float: left; */
+   left: 350px;
 }
 
 .itinerary {
    width: 30%;
-   float: left;
-   bottom: 0;
+   position: absolute;
+   /* float: left; */
+   left: 0;
 }
 
 .photographer {
@@ -52,6 +57,7 @@ if that's the correct thing to do.
    border-top-color: #ffd700;
    border-left-color: white;
    border-bottom-color: white;
+   border-right: 3px solid;
 }
 
 /* tags for div id = information */
@@ -216,4 +222,13 @@ if that's the correct thing to do.
    padding-left: 15px;
    color: white;
    font-size: 20px;
+   width: 300px;
+}
+
+#natgeo_logo {
+   width: 150px;
+   position: relative;
+   top: 0px;
+   right: 0px;
+   z-index: 1;
 }
