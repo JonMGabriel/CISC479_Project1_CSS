@@ -24,8 +24,12 @@ h3 {
 
 ul {
     font-size: 16px;
-    margin-left: 0px;
  }
+ 
+li {
+   position: relative;
+   left: 20px;
+}
 
 /* Learning moment: So what I did to move my information section to the bottom right
 was to make the entire article I was emulating into its own div id. The from there I
@@ -46,12 +50,12 @@ if that's the correct thing to do.
 .information {
    /* position: absolute; /* I'm pretty sure this inherits from that static position abov */
    float: right;
-   right: 0;
    width: 35%;/* also hard set the width of the information section, see above for possible mistake */
+   padding-top: 25px;
 }
 
 .day_6_11 {
-   width: 35%;
+   width: 30%;
    /* position: absolute; */
    float: left;
    left: 350px;
@@ -59,7 +63,7 @@ if that's the correct thing to do.
 }
 
 .itinerary {
-   width: 30%;
+   width: 28%;
    /* position: absolute; */
    float: left;
    left: 0;
@@ -73,7 +77,7 @@ if that's the correct thing to do.
    border-bottom-color: white;
    border-right: 3px solid;
    box-sizing: border-box;
-   width: 30%;
+   width: 28%;
 }
 
 .expedition_highlights {
@@ -84,7 +88,7 @@ if that's the correct thing to do.
    border-right: white;
    border-left: white;
    border-top-color: #ffd700;
-   height: 300px;
+   height: 271px;
 }
 
 /* tags for div id = information */
