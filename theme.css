@@ -44,6 +44,14 @@ if that's the correct thing to do.
 .itinerary {
    width: 30%;
    float: left;
+   bottom: 0;
+}
+
+.photographer {
+   border-style: solid;
+   border-top-color: #ffd700;
+   border-left-color: white;
+   border-bottom-color: white;
 }
 
 /* tags for div id = information */
