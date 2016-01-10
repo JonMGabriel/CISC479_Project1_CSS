@@ -31,9 +31,18 @@ li {
    left: 20px;
 }
 
+mark.blue {
+   background-color: white;
+   color: blue;
+}
+
 #unbold {
    font-weight: normal;
    float: right;
+}
+
+.blue {
+   color: blue;
 }
 
 /* Learning moment: So what I did to move my information section to the bottom right
@@ -64,7 +73,7 @@ if that's the correct thing to do.
    /* position: absolute; */
    float: left;
    left: 350px;
-   padding-left: 20px;
+   padding-left: 60px;
    font-family: "Trebuchet MS";
    padding-bottom:20px;
 }
@@ -98,10 +107,26 @@ if that's the correct thing to do.
    height: 271px;
 }
 
+.small_box {   
+    position: absolute;
+    padding-top: 8px;
+    top: 14px;
+    right: 0;
+    width: 20px;
+    height: 10px;
+    margin: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0,0,0,.2);
+}
+
 #polar {
    position: absolute;
    top: 0;
    right: 0;
+   padding-right: 40px;
+   font-family: "Trebuchet MS";
+   text-transform: uppercase;
 }
 
 /* tags for div id = information */
@@ -250,11 +275,6 @@ if that's the correct thing to do.
    font-family: "Trebuchet MS";
 }
 /* tags for div id = day_6_11 */
-
-.day_x {
-   color: blue;
-}
-
 
 /* tags for div id = itinerary */
 
