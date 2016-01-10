@@ -323,3 +323,8 @@ if that's the correct thing to do.
    color: blue;
    text-transform: uppercase;
 }
+
+#ex_photo {
+   text-transform: uppercase;
+   font-weight: 600;
+}
